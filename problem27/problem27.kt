@@ -1,6 +1,8 @@
 //https://projecteuler.net/problem=27
 fun main() {
+    val start = System.currentTimeMillis()
     problem27()
+    println("${System.currentTimeMillis()-start} ms")
 }
 
 fun problem27() {
